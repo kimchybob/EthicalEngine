@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ethicalengine</OriginalElement>
+  <nodes>
+    <node x="350.0" y="785.0">ethicalengine.ScenarioGenerator</node>
+    <node x="674.25" y="397.0">ethicalengine.Character.Gender</node>
+    <node x="0.0" y="664.0">ethicalengine.Person.AgeCategory</node>
+    <node x="421.25" y="300.0">ethicalengine.Animal</node>
+    <node x="53.25" y="278.0">ethicalengine.Person</node>
+    <node x="241.0" y="664.0">ethicalengine.Person.Profession</node>
+    <node x="531.75" y="0.0">ethicalengine.Character</node>
+    <node x="887.25" y="397.0">ethicalengine.Character.BodyType</node>
+    <node x="0.0" y="785.0">ethicalengine.Scenario</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ethicalengine.Animal" target="ethicalengine.Character">
+      <point x="0.0" y="-146.0" />
+      <point x="537.75" y="258.0" />
+      <point x="623.625" y="258.0" />
+      <point x="-30.625" y="114.0" />
+    </edge>
+    <edge source="ethicalengine.Person.AgeCategory" target="ethicalengine.Person">
+      <point x="0.0" y="-38.0" />
+      <point x="110.5" y="639.0" />
+      <point x="140.25" y="639.0" />
+      <point x="-87.0" y="168.0" />
+    </edge>
+    <edge source="ethicalengine.Person.Profession" target="ethicalengine.Person">
+      <point x="0.0" y="-38.0" />
+      <point x="344.0" y="639.0" />
+      <point x="314.25" y="639.0" />
+      <point x="87.0" y="168.0" />
+    </edge>
+    <edge source="ethicalengine.Person" target="ethicalengine.Character">
+      <point x="0.0" y="-168.0" />
+      <point x="227.25" y="248.0" />
+      <point x="562.375" y="248.0" />
+      <point x="-91.875" y="114.0" />
+    </edge>
+    <edge source="ethicalengine.Character.Gender" target="ethicalengine.Character">
+      <point x="5.6843418860808015E-14" y="-49.0" />
+      <point x="770.75" y="258.0" />
+      <point x="684.875" y="258.0" />
+      <point x="30.625" y="114.0" />
+    </edge>
+    <edge source="ethicalengine.Character.BodyType" target="ethicalengine.Character">
+      <point x="0.0" y="-49.0" />
+      <point x="987.75" y="248.0" />
+      <point x="746.125" y="248.0" />
+      <point x="91.875" y="114.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.42447257383966247" x="544.5" y="582.5" />
+  <SelectedNodes>
+    <node>ethicalengine.ScenarioGenerator</node>
+    <node>ethicalengine.Character.Gender</node>
+    <node>ethicalengine.Person.AgeCategory</node>
+    <node>ethicalengine.Animal</node>
+    <node>ethicalengine.Person</node>
+    <node>ethicalengine.Person.Profession</node>
+    <node>ethicalengine.Character</node>
+    <node>ethicalengine.Character.BodyType</node>
+    <node>ethicalengine.Scenario</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
